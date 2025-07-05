@@ -11,7 +11,7 @@ function Maps() {
           <Card>
             <Card.Img
               variant="top"
-              //   src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Erangel_map.png/500px-Erangel_map.png"
+              src="https://i.pinimg.com/736x/8a/1d/de/8a1dde4e435aa1450b6c7df84a77ffff.jpg"
               alt="Erangel"
             />
             <Card.Body>
@@ -38,7 +38,7 @@ function Maps() {
           <Card>
             <Card.Img
               variant="top"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Miramar_Map_Updated.jpg/800px-Miramar_Map_Updated.jpg"
+              src="https://i.pinimg.com/736x/85/ac/88/85ac889c75747b7f675fae8cbe937395.jpg"
               alt="Miramar"
             />
             <Card.Body>
@@ -65,7 +65,7 @@ function Maps() {
           <Card>
             <Card.Img
               variant="top"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sanhok_map.jpg/800px-Sanhok_map.jpg"
+              src="https://i.pinimg.com/736x/51/27/cb/5127cb078186c4374cf42c4ea54fe604.jpg"
               alt="Sanhok"
             />
             <Card.Body>
@@ -94,7 +94,7 @@ function Maps() {
           <Card>
             <Card.Img
               variant="top"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Vikendi_map_BGMI.jpg/800px-Vikendi_map_BGMI.jpg"
+              src="https://i.pinimg.com/736x/90/e5/1d/90e51df2a6ac7756c97ba463dc64aabc.jpg"
               alt="Vikendi"
             />
             <Card.Body>
@@ -121,7 +121,7 @@ function Maps() {
           <Card>
             <Card.Img
               variant="top"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Livik_map.jpg/800px-Livik_map.jpg"
+              src="https://i.pinimg.com/736x/95/ef/37/95ef37b207db5b30845c136255892148.jpg"
               alt="Livik"
             />
             <Card.Body>
@@ -147,8 +147,9 @@ function Maps() {
           <Card>
             <Card.Img
               variant="top"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Karakin_map.jpg/800px-Karakin_map.jpg"
+              src="https://cdn2.gamermaps.net/maps/pubg/terrain/2601/1/0/t_1.jpg"
               alt="Karakin"
+              
             />
             <Card.Body>
               <Card.Title>Karakin</Card.Title>

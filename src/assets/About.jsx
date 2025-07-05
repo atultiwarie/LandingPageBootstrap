@@ -1,69 +1,3 @@
-// import React from "react";
-// import { Container, Row, Col, Card, Button } from "react-bootstrap";
-
-// function About() {
-//   return (
-//     <Container className="mt-5">
-//       <h1 className="text-center mb-4">About BGMI</h1>
-
-//       <Row>
-//         <Col md={6}>
-//           <Card>
-//             <Card.Img
-//               variant="top"
-//             //   src="https://wallpapercave.com/wp/wp11232833.jpg"
-//               alt="BGMI"
-//             />
-//             <Card.Body>
-//               <Card.Title>Welcome to BGMI</Card.Title>
-//               <Card.Text>
-//                 Battlegrounds Mobile India (BGMI) is a multiplayer battle royale
-//                 game developed and published by Krafton for mobile devices. In
-//                 BGMI, players engage in combat in an ever-shrinking battlefield
-//                 to be the last player or team standing. The game features
-//                 realistic graphics, immersive sound, and exciting gameplay
-//                 mechanics.
-//               </Card.Text>
-//               <Button variant="primary" href="#download">
-//                 Download BGMI Now
-//               </Button>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-
-//         <Col md={6}>
-//           <h3 className="mb-3">Our Story</h3>
-//           <p>
-//             BGMI was launched to cater specifically to the Indian gaming
-//             community, with features and content that reflect Indian culture and
-//             interests. Our mission is to provide an engaging and exciting
-//             experience that appeals to casual players, competitive gamers, and
-//             esports enthusiasts alike.
-//           </p>
-
-//           <h3>Team BGMI</h3>
-//           <p>
-//             The BGMI team consists of passionate developers, designers, and
-//             marketers who work tirelessly to deliver regular updates, new
-//             features, and special events that keep the game exciting and fun for
-//             players across the world.
-//           </p>
-
-//           <h3>Contact Us</h3>
-//           <p>
-//             If you have any queries, feedback, or need assistance, feel free to
-//             reach out to us through our social media handles or email us at
-//             <strong> support@bgmi.com</strong>.
-//           </p>
-//         </Col>
-//       </Row>
-//     </Container>
-//   );
-// }
-
-// export default About;
-
-
 import React from "react";
 import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
 
@@ -74,11 +8,12 @@ function AboutUs() {
 
       <Row>
         <Col md={6} className="d-flex align-items-center">
-          <Card className="w-100">
+          <Card className="w-75">
             <Card.Img
               variant="top"
-              src="https://wallpapercave.com/wp/wp11232833.jpg"
+              src="https://i.pinimg.com/736x/62/50/b0/6250b09b79eb4582b34459659587fadc.jpg"
               alt="BGMI"
+              style={{ height: "300px" }}
             />
             <Card.Body>
               <Card.Title>Welcome to BGMI</Card.Title>
@@ -152,8 +87,9 @@ function AboutUs() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Battlegrounds_Mobile_India_screenshot_1.jpg"
+            src="https://i.pinimg.com/736x/bd/7c/ce/bd7ccec47365af743e1ee9918618098c.jpg"
             alt="BGMI Gameplay 1"
+            style={{ height: "400px" }}
           />
           <Carousel.Caption>
             <h3>Immersive Graphics</h3>
@@ -163,8 +99,9 @@ function AboutUs() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Battlegrounds_Mobile_India_screenshot_2.jpg"
+            src="https://i.pinimg.com/736x/df/cc/a8/dfcca81afafb3c7f9e4c7e7fed0a732a.jpg"
             alt="BGMI Gameplay 2"
+            style={{ height: "400px" }}
           />
           <Carousel.Caption>
             <h3>Exciting Action</h3>
@@ -174,8 +111,9 @@ function AboutUs() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Battlegrounds_Mobile_India_screenshot_3.jpg"
+            src="https://i.pinimg.com/736x/2c/35/05/2c3505ee560bcddf9103524126c91374.jpg"
             alt="BGMI Gameplay 3"
+            style={{ height: "400px" }}
           />
           <Carousel.Caption>
             <h3>Competitive Esports</h3>
