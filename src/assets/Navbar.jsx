@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import { Navbar, Nav, Container, Button, Form } from "react-bootstrap";
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-dark navbar-dark w-100">
+    <Navbar expand="lg" className="bg-dark navbar-dark w-100 fixed-top z-50">
       <Container fluid>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand href="#home">
           <img
             src="https://www.battlegroundsmobileindia.com/common/img/common/logo.png"
             alt="BGMI Logo"
@@ -18,14 +17,17 @@ function NavScrollExample() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className="w-100">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/" className="px-md-4">
+            <Nav.Link href="#home" className="px-md-4">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/about" className="px-md-3">
+            <Nav.Link href="#about" className="px-md-3">
               About Us
             </Nav.Link>
-            <Nav.Link as={Link} to="/maps" className="px-md-3">
+            <Nav.Link href="#maps" className="px-md-3">
               Maps
+            </Nav.Link>
+            <Nav.Link href="#contact" className="px-md-3">
+              Contact
             </Nav.Link>
           </Nav>
 

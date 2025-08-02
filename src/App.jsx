@@ -1,23 +1,30 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import Navbar from "./assets/Navbar"; // Your custom Navbar component
+import Navbar from "./assets/Navbar";
 import Home from "./assets/Home";
 import AboutUs from "./assets/About";
 import Maps from "./assets/Maps";
-import Footer from "./assets/Footer"; // Footer component
+import Footer from "./assets/Footer";
+
 
 function App() {
   return (
-    <Router>
+    <div className="overflow-x-hidden scroll-smooth">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/maps" element={<Maps />} />
-      </Routes>
+
+      <section id="home" className="pt-20">
+        <Home />
+      </section>
+
+      <section id="about" className="pt-20">
+        <AboutUs />
+      </section>
+
+      <section id="maps" className="pt-20">
+        <Maps />
+      </section>
+
       <Footer />
-    </Router>
+    </div>
   );
 }
 
