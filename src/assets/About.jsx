@@ -87,37 +87,61 @@ function AboutUs() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://i.pinimg.com/736x/bd/7c/ce/bd7ccec47365af743e1ee9918618098c.jpg"
+            src="https://i.pinimg.com/736x/2f/cd/af/2fcdaf7f9ecd97974cd75f307bd2c4dd.jpg"
             alt="BGMI Gameplay 1"
             style={{ height: "400px" }}
           />
-          <Carousel.Caption>
-            <h3>Immersive Graphics</h3>
-            <p>Experience breathtaking visuals and realistic environments.</p>
+          <Carousel.Caption
+            style={{
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+              padding: "10px",
+              borderRadius: "8px",
+            }}
+          >
+            <h3 style={{ color: "#fff" }}>Immersive Graphics</h3>
+            <p style={{ color: "#ddd" }}>
+              Experience breathtaking visuals and realistic environments.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://i.pinimg.com/736x/df/cc/a8/dfcca81afafb3c7f9e4c7e7fed0a732a.jpg"
+            src="https://i.pinimg.com/736x/07/b4/ac/07b4accd1d38cb957f14218c2f1a87b9.jpg"
             alt="BGMI Gameplay 2"
             style={{ height: "400px" }}
           />
-          <Carousel.Caption>
-            <h3>Exciting Action</h3>
-            <p>Fast-paced, adrenaline-pumping action in every match.</p>
+          <Carousel.Caption
+            style={{
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+              padding: "10px",
+              borderRadius: "8px",
+            }}
+          >
+            <h3 style={{ color: "#fff" }}>Exciting Action</h3>
+            <p style={{ color: "#ddd" }}>
+              Fast-paced, adrenaline-pumping action in every match.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://i.pinimg.com/736x/2c/35/05/2c3505ee560bcddf9103524126c91374.jpg"
+            src="https://imgs.search.brave.com/eOpgdo9nPft29iGkhJOg79MNLHkvI5AtdZlS4nx_02I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbS5p/bmRpYXRpbWVzLmlu/L2NvbnRlbnQvMjAy/NS9KdWwvR3ZOb2Nr/T1hBQUkyRWk5LTFf/Njg3N2M0YWIyNjFh/OS5qcGc_dz0xMjAw/Jmg9OTAwJmNjPTEm/d2VicD0xJnE9NzU"
             alt="BGMI Gameplay 3"
             style={{ height: "400px" }}
           />
-          <Carousel.Caption>
-            <h3>Competitive Esports</h3>
-            <p>
+          <Carousel.Caption
+            style={{
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+              padding: "10px",
+              borderRadius: "8px",
+            }}
+          >
+            <h3 style={{ color: "#fff" }}>Competitive Esports</h3>
+            <p style={{ color: "#ddd" }}>
               Test your skills and compete against the best players worldwide.
             </p>
           </Carousel.Caption>

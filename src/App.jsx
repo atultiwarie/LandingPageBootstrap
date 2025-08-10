@@ -4,6 +4,7 @@ import Home from "./assets/Home";
 import AboutUs from "./assets/About";
 import Maps from "./assets/Maps";
 import Footer from "./assets/Footer";
+import Contact from "./assets/Contact";
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
 
       <section id="maps" className="pt-20">
         <Maps />
+      </section>
+
+      <section id="contact" className="pt-20">
+        <Contact />
       </section>
 
       <Footer />
