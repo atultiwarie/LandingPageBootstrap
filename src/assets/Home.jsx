@@ -51,7 +51,7 @@ function Home() {
             <li>Bug fixes and performance improvements</li>
           </ul>
           <p className="text-warning">
-            Update your app now to enjoy all the new features!
+            Update the  app now to enjoy all the new features!
           </p>
         </div>
       </Container>
